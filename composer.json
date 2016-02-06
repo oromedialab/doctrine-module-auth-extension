@@ -1,0 +1,23 @@
+{
+    "name": "oromedialab/doctrine-module-auth-extension",
+    "description": "Authentication Extension for DoctrineModule",
+    "license": "MIT",
+    "keywords": ["doctrine-module", "authentication"],
+    "authors": [
+        {
+            "name": "Ibrahim Azhar Armar",
+            "email": "azhar@iarmar.com"
+        }
+    ],
+    "require": {
+        "php": ">5.4",
+        "zendframework/zend-servicemanager": "*",
+        "doctrine/doctrine-orm-module": "0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oml\\DoctrineModuleAuthExtension\\": "src/"
+        },
+        "classmap": ["Module.php"]
+    }
+}
