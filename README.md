@@ -4,9 +4,6 @@ Developed and Maintained by Ibrahim Azhar Armar
 
 This module is an extension of [DoctrineModule Authentication Extension](https://github.com/doctrine/DoctrineModule/blob/master/docs/authentication.md)
 
-Installation
-------------
-
 #### Install using composer
 ```
 composer require oromedialab/doctrine-module-auth-extension
